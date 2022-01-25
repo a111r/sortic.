@@ -1,4 +1,4 @@
-#include "sorticFuncs.h"
+#include "sortic.h"
 
 void rra(vector<int> &a){
     int buffer;
