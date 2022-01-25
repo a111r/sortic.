@@ -11,12 +11,7 @@ void sa(vector<int> &a)
 
 void sb(vector<int> &b)
 {
-    if(b.size() >= 2)
-    {
-        int num = b[1];
-        b[1] = b[0];
-        b[0] = num;
-    }
+    sa(b);
 }
 
 void ss(vector<int> &a, vector<int> &b)
