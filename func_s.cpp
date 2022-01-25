@@ -1,7 +1,7 @@
 #include "sortic.h"
-void sa(vector <int> a)
+void sa(vector<int> &a)
 {
-    if(a.size >= 2)
+    if(a.size() >= 2)
     {
         int num = a[1];
         a[1] = a[0];
@@ -9,9 +9,9 @@ void sa(vector <int> a)
     }
 }
 
-void sb(vector <int> b)
+void sb(vector<int> &b)
 {
-    if(b.size >= 2)
+    if(b.size() >= 2)
     {
         int num = b[1];
         b[1] = b[0];
@@ -19,7 +19,7 @@ void sb(vector <int> b)
     }
 }
 
-void ss(vector <int> a, vector <int> b)
+void ss(vector<int> &a, vector<int> &b)
 {
     sa(a);
     sb(b);
