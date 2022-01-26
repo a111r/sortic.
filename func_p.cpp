@@ -10,10 +10,7 @@ void pa(vector <int> a, vector <int> b)
 
 void pb(vector <int> a, vector <int> b)
 {
-    if(a.size >= 1)
-    {
-
-    }
+    pa(a)
 }
 
 //123123
